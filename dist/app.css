@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.par {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  color: blue;
+}
+

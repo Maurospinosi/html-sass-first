@@ -1,0 +1,24 @@
+$displayFlex : flex;
+$justy : center;
+$color_one : red;
+$color_two : green;
+$color_three : blue;
+
+
+header{
+  display: $displayFlex;
+  justify-content: $justy;
+}
+.par{
+  display: $displayFlex;
+  justify-content: space-around;
+}
+h1{
+  color:$color_one;
+}
+h2{
+  color:$color_two;
+}
+p{
+  color:$color_three;
+}

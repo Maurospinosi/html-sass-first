@@ -1,8 +1,10 @@
 $displayFlex : flex;
 $justy : center;
 $color_one : red;
-$color_two : green;
+$color_two : brown;
 $color_three : blue;
+$color_four : lightblue;
+
 
 
 header{
@@ -17,8 +19,20 @@ h1{
   color:$color_one;
 }
 h2{
-  color:$color_two;
+  color:$color_one;
 }
-p{
+.par_1 h2{
+  color: $color_four;
+}
+.par_1{
   color:$color_three;
+  background-color: $color_one;
+}
+.par_2{
+  color:$color_two;
+  background-color: $color_three;
+}
+.par_3{
+  color:$color_four;
+  background-color: $color_two;
 }

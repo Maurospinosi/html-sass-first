@@ -13,10 +13,25 @@ h1 {
 }
 
 h2 {
-  color: green;
+  color: red;
 }
 
-p {
+.par_1 h2 {
+  color: lightblue;
+}
+
+.par_1 {
   color: blue;
+  background-color: red;
+}
+
+.par_2 {
+  color: brown;
+  background-color: blue;
+}
+
+.par_3 {
+  color: lightblue;
+  background-color: brown;
 }
 
